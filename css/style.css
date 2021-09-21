@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  position: fixed;
+  top: 18px;
+  left: 0;
+  z-index: 20;
+  text-align: center;
+  width: 100%;
+  
+ 
+  
+}
+
+li{
+  display: inline-block;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+a{
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 12px 10px;
+}
+
+a:hover{
+  color: red;
+}
+
+
+
+.box{
+  background-color: aqua;
+  width: calc(100% - 20px);
+  height: calc(100vh - 20px);
+  margin: 10px auto;
+  background-size: cover;
+
+}
+
+.overlay{
+  position: relative;
+  background-color: rgba(0, 0, 0, .5);
+  height: 100%;
+}
+
+.overlay:hover{
+  background-color: rgba(0, 0, 0, 0);
+
+
+}
+
+h2{
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  text-transform: uppercase;
+  text-shadow: 6px 6px black;
+}
+
+.overlay:hover h2{
+  text-shadow: none;
+}
+
+#roma{
+  background-image: url(https://img2.meteo.it/bin/90.$plit/C_109_meteoCitta_4_upiFoto.jpg);
+}
+
+#napoli{
+  background-image: url(https://luce-gas.it/sites/default/files/styles/article_hero/public/2020-09/offerte-gas-napoli.png?itok=eGhqtBUN);
+}
+
+#milano{
+  background-image: url(http://www.youparti.com/nightlife_2016/nightlife/wp-content/uploads/2018/10/Milano.jpg);
+}
+
